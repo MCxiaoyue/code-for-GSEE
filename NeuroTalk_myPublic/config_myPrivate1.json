@@ -1,0 +1,25 @@
+{
+    "max_epochs": 250,
+    
+    "l_g": [1.5, 0.001, 0.01],
+
+    "lr_g": 0.00015,
+    "lr_g_decay": 0.99,
+
+    "l_d": [1,1],
+    "lr_d": 0.0001,
+    "lr_d_decay": 0.995,
+     
+    "seed": 42,
+                     
+    "max_wav_value": 32768,
+    "sampling_rate": 22050,
+    "n_fft": 1024,
+    "win_length": 1024,
+    "hop_length": 256,
+    "n_mel_channels": 80,
+
+
+    "classname": ["flower", "penguin", "guitar"],
+    "word_label": ["FLOWER|", "PENGUIN|", "GUITAR|"]
+}
